@@ -559,8 +559,11 @@ main{
 }
 
 .animation-icon{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
    width: 100%;
-   height: 186px;
+   height: 620px;
 }
 
 .animation-icon img{
