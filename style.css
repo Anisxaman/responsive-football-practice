@@ -1,0 +1,595 @@
+/* --------------------------google font import-------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Headland+One&display=swap');
+
+
+ 
+/*  ------------------------------------------(header section style starts)------------- */
+
+
+
+.containar{
+   font-family: 'Poppins', sans-serif;
+   margin-top: 0;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   /* justify-content: center; */
+}
+
+h1{
+    font-weight: bolder;
+     font-size: 30px;
+     font-family: 'Headland One', serif;
+}
+
+p{
+   color: #52515a;
+}
+
+.header{
+   background: #635fa0;
+   color: white;
+   height: 677px;
+   width: 1439.99px;
+   left: 0px;
+   top: 0px;
+   border-radius: 0px;
+
+
+}
+
+
+.header-container{
+    
+    width: 1160px;
+    height: 549px;
+    margin-top: 42px;
+    margin-right: 124px;
+    margin-left: 156px;
+}
+
+
+
+
+
+.nav-menu{
+        display: flex;
+        justify-content: space-between;
+        height: 44px;
+        width: 1160px;
+        left: 124px;
+        top: 42px;
+        border-radius: 0px;
+   
+
+}
+
+.nav-menu ul{
+    display: flex;
+    list-style: none;
+    margin-left: -40px;
+    align-items: center;
+    
+}
+
+
+.nav-menu ul li{
+    margin-right: 40px;
+}
+
+.nav-menu ul a{
+   text-decoration: none;
+   color: white;
+
+}
+
+
+
+.banner{
+    display: flex;
+   justify-content: center;
+    margin-top: 67px;
+    width: 1143.01px;
+    height: 438px;
+    margin-right: 16.99px;
+    
+}
+
+.banner-image img{
+   height: 438px;
+   width: 556.0103149414062px;
+   left: 1299.01025390625px;
+   top: 153px;
+   border-radius: 0px;
+   
+}
+
+.banner-text{
+   height: 230px;
+   width: 485px;   
+   border-radius: nullpx;
+   margin-top: 54px;
+
+}
+
+.banner-text h1{
+    white-space: pre;
+    font-size: 37px;
+}
+
+.anchor-button{
+        text-decoration: none;
+        background-color:#e64343 ;
+        border-radius: 40px;
+        color: white;
+        font-weight: 500;
+        text-align: center;
+            display: block;
+        box-shadow:  5px 5px 10px #141227 ,
+                    -5px -5px 10px #9794c5;
+         /* border: none; */
+
+        
+
+        height: 29px;
+        width: 114px;
+
+
+}
+
+
+
+.anchor-button:hover{
+    background: #141227;
+    transform: scale(1.2);
+    display: block;
+    text-align: center;
+}
+
+
+
+
+
+/* - ------------------------------(header section style ends)----------------------------------- */
+
+
+/* -----------------------------------(main section style starts)---------------------------------> */
+
+/* body{
+   display: flex;
+   flex-direction: column;
+   
+} */
+.main{
+   width: 1440px;
+   height: 2639px;
+}
+.players{
+   display: grid;
+   grid-template-columns: repeat(3,1fr);
+   grid-row-gap:27px ;
+   grid-column-gap:30px ;
+   margin-top: 70px;
+   margin-left: 180px;
+   margin-right: 210px;
+   height: 1977px;
+   width: 1050px;
+}
+
+.player-info img{
+   Width :300px;
+   Height : 256px;
+  
+   margin-bottom: 16px;
+}
+
+.player-info{
+    text-align: center;
+   
+   padding: 15px 0 15px 15px;
+   width: 330px;
+   height: 474px;
+   background: #FFFFFF;
+   border-radius: 20px;
+   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+
+.player-info p{
+   
+   white-space:pre-wrap;
+   margin-right: 20px;
+   
+
+}
+
+.bottom-text p{
+   white-space: pre;
+}
+
+/* ------------------------------------(Bottom-section starts)------------------------- */
+
+.Bottom-section{
+   width: 1102px;
+   height: 427px;
+   display: flex;
+   align-items: center;
+   margin-top: 165px;
+   margin-right: 156px;
+   margin-left: 182px;
+
+}
+
+.bottom-text{
+   width: 466px;
+   height: 309px;
+   margin-right: 69px;
+   margin-top: 56px;
+   margin-left: 0;
+   margin-bottom: 59px;
+}
+.bottom-text p{
+   white-space: pre;
+}
+
+.bottom-img{
+   height: 427px;
+
+}
+
+.bottom-img img{
+   width: 567px;
+   border-radius: 10px;
+   height: 427px;
+   
+}
+
+
+/* ------------------------------------(Bottom-section endss)------------------------- */
+
+
+ /* -----------------------------------(main section style ends)-----------------------------
+ /
+ /
+ /
+ /
+ --------------------------------------------------------------------------------------------------> */
+
+
+
+ .animation-icon{
+   height: 250px;
+   width: 400px;
+   text-align: center;
+   position: relative;
+   right: 5%;
+
+ }
+
+/* -------------------------------------(footer section style starts)-------------------------- --> */
+
+
+footer{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   width: 1440px;
+   height: 434px;
+}
+
+
+footer img{
+height: 110px;
+width: 483.87103271484375px;
+left: 0px;
+top: 0px;
+border-radius: 0px;
+}
+
+
+
+
+
+.footer-container{
+
+   text-align: center;
+   margin-top: 158px; 
+   margin-left: 475px;  
+   margin-right: 481.13px;
+   margin-bottom: 63px;
+   border-radius: 0px;
+   width: 483.87px;
+   height: 213px;
+}
+
+
+footer a{
+   color: black;
+   margin: 0 10px;
+}
+
+
+footer p{
+   color:black;
+   margin: 0 10px;
+}
+
+footer a:hover{
+   color:red;
+}
+
+.social-link{
+   text-align: center;
+   display: block
+   /* margin :0 20px; */
+}
+
+
+.header-text{
+
+   margin: 30px 0;
+}
+
+.header-text h1{
+  font-size:25px;
+}
+
+
+/* -------------------------------------(footer section style endss)-------------------------- --> */
+
+/* ----------------------------------(pagination style strats)---------------------------------> */
+
+
+
+ 
+ .pagination a {
+   color: black;
+   float: left;
+   padding: 8px 16px;
+   text-decoration: none;
+   transition: background-color 1s, opacity 0.5s ;
+  
+   /* box-shadow: 2px 2px 20px 2px #000000; */
+ }
+ 
+ .pagination a.active {
+   background-color: #4e744f;
+   color: rgb(255, 252, 252);
+   
+ }
+ 
+ .pagination a:hover:not(.active) {
+    background-color: #ddd;
+    
+
+}
+
+
+
+/* ----------------------------------(pagination style ends)---------------------------------> */
+
+ 
+/* -------------------------------(Responsive Design starts)----------------------------------*/
+
+
+/* ================================================(For Desktop)======================== */
+/* @media only screen and (max-width: 1200px){
+
+   .nav-menu{
+      display:none;
+   }
+
+}
+
+
+@media only screen and (max-width: 1100px){
+
+   .containar{
+      margin-left: 40px;
+   }
+} */
+
+
+
+
+
+
+/* =====================================(For Mobile)============================== */
+
+
+@media only screen and (max-width: 500px) {
+
+main{
+      width:100%;
+      height: 100%;
+     
+      
+   }
+
+
+ body{
+   /* width: 473px; */
+   margin-left: 0;
+} 
+ 
+   
+ 
+.containar{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   margin-left: 0px;
+   width: 100%;
+   height: 100%;
+}
+
+.header{
+   height: 60rem;
+   width: 100%;
+}
+
+.nav-menu{
+   display:none;
+}
+
+.header-container{
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+   margin-left: 0;
+   margin-right: 0;
+
+   height: 100%;
+}
+
+
+
+
+.players{
+   display: grid;
+   grid-template-columns: repeat(1,1fr);
+   width: 100%;
+   height: 100%;
+   margin-left: 0;
+   margin-right: 0;
+   margin-top: 20px;
+}
+
+
+
+.banner{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   height: 100%;
+   margin-top: 0;
+   width: 100%;
+}
+
+.banner-text{
+   height: 50%;
+   margin-top: 0;
+   width: 100%;
+}
+
+.banner-image{
+   margin-top: 17px;
+   text-align: center;
+   padding:50px 50px 50px 0;
+   height: 50%;
+   width: 100%;
+
+}
+
+.banner-image img{
+   width: 90%;
+   height: 80%;
+   
+}
+
+
+
+
+.player-info{
+   width: 100%;
+   height: 610px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-left: 0;
+  padding-top: 56px;
+}
+
+.player-info img{
+   width: 80%;
+   object-fit:fill;
+
+}
+
+.player-text{
+ white-space: pre-wrap;
+}
+
+.player-text h2{
+   margin-top: -16px;
+}
+
+
+.player-text p{
+   text-align: center;
+   width: 363px;
+}
+
+
+
+.Bottom-section{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   margin-left: 0;
+   height: 500px;
+   margin-top: 0;
+   height: 1000px;
+}
+
+.bottom-text{
+   width: 100%;
+   margin-right: 0;
+   height: 430px;
+   padding-left: 15px;
+}
+.bottom-text p{
+   white-space: normal;
+   margin-bottom: 20px;
+}
+
+.bottom-img{
+   width: 100%;
+
+}
+
+.bottom-img img{
+   width: 100%;
+   border-radius: 20px;
+
+}
+
+.animation-icon{
+   width: 100%;
+   height: 186px;
+}
+
+.animation-icon img{
+   width: 100%;
+
+}
+
+
+}
+
+/* --------------------------------(main part responsive end)-------------------------------------- */
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* -------------------------------(Responsive Design starts)----------------------------------*/
