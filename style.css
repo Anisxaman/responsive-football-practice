@@ -6,7 +6,10 @@
  
 /*  ------------------------------------------(header section style starts)------------- */
 
-
+/* body{
+   margin: 0;
+   padding: 0;
+} */
 
 .containar{
    font-family: 'Poppins', sans-serif;
@@ -114,8 +117,10 @@ p{
 }
 
 .banner-text h1{
-    white-space: pre;
+    white-space:pre-line;
     font-size: 37px;
+    /* width: 50%; */
+
 }
 
 .anchor-button{
@@ -415,6 +420,8 @@ main{
    margin-left: 0;
    margin: 0;
    padding: 0;
+   /* width: 100%; */
+   /* overflow: hidden; */
 } 
 
 
@@ -428,6 +435,7 @@ main{
    width: 100%;
    height: 100%;
    /* border: 2px solid black; */
+   overflow: hidden;
 }
 
 .header{
