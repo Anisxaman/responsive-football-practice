@@ -258,11 +258,14 @@ p{
 
 
  .animation-icon{
-   height: 250px;
-   width: 400px;
-   text-align: center;
-   position: relative;
-   right: 5%;
+   height: 740px;
+   width: 560px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   /* text-align: center; */
+   /* position: relative;
+   right: 5%; */
 
  }
 
@@ -438,7 +441,7 @@ main{
    display: flex;
    flex-direction: column;
    width: 100%;
-   margin-left: 0;
+   margin-left: 10px;
    margin-right: 0;
 
    height: 100%;
@@ -474,7 +477,15 @@ main{
    margin-top: 0;
    width: 100%;
 }
+.banner-text h1{
+   width: 100%;
+   white-space: normal;
+   padding-left: 20px;
+}
 
+.banner-text a{
+   margin-left: 15px;
+}
 .banner-image{
    margin-top: 17px;
    text-align: center;
@@ -573,6 +584,10 @@ main{
    width: 100%;
    
 
+}
+
+.video{
+   width: 90%;
 }
 
 footer{
