@@ -409,11 +409,10 @@ main{
 
 
  body{
-   /* width: 473px; */
    margin-left: 0;
 } 
- 
-   
+
+
  
 .containar{
    display: flex;
@@ -423,6 +422,7 @@ main{
    margin-left: 0px;
    width: 100%;
    height: 100%;
+   border: 2px solid black;
 }
 
 .header{
@@ -534,13 +534,15 @@ main{
    height: 500px;
    margin-top: 0;
    height: 1000px;
+   margin-right: 0;
 }
 
 .bottom-text{
-   width: 100%;
+   width: 80%;
    margin-right: 0;
    height: 430px;
-   padding-left: 15px;
+   /* padding-left: 15px; */
+
 }
 .bottom-text p{
    white-space: normal;
@@ -564,14 +566,28 @@ main{
    align-items: center;
    width: 100%;
    height: 620px;
+   left:0;
 }
 
 .animation-icon img{
    width: 100%;
+   
+
+}
+
+footer{
+   width: 100%;
+
+}
+.footer-container{
+   width: 100%;
+}
 
 }
 
 
+.footer-container img{
+   width: 70%;
 }
 
 /* --------------------------------(main part responsive end)-------------------------------------- */
